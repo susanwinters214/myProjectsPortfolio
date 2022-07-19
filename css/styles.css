@@ -177,6 +177,18 @@ a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+a.proj {
+  color:white;
+
+}
+a:hover {
+  color:  #6c757d;;
+  text-decoration: underline;
+}
+a.proj :visited{
+  color:white;
+}
+
 pre,
 code,
 kbd,
@@ -10238,3 +10250,6 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+a{font-size:1.3em;}
+.proj{line-height:100px;}
